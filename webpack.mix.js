@@ -1,5 +1,6 @@
 let mix = require('laravel-mix');
 
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -12,6 +13,6 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
-   
-mix.browserSync('todolist.test');
+   .sass('resources/assets/sass/app.scss', 'public/css') 
+   .browserSync('example.test');
+   //TODO: Replace example.test white your testing domaine name.
