@@ -7,7 +7,8 @@
 #   TODO: Change the destination folder from 'example' to your actual working folder.
 
 cp -Rf * /opt/lampp/htdocs/example/;
+cd /opt/lampp/htdocs/example/;
 php artisan key:generate;
 echo 'Password required to change permissions on the storage folder'
-sudo chmod -R 777 /opt/lampp/htdocs/example/storage/
+sudo chmod -R 777 storage;
 npm install && php artisan serve;
