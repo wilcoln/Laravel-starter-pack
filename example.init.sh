@@ -11,4 +11,8 @@ cd /opt/lampp/htdocs/example/;
 php artisan key:generate;
 echo 'Password required to change permissions on the storage folder'
 sudo chmod -R 777 storage;
+rm example.init.sh;
+rm init.sh;
+rm README.md;
+touch README.md;
 npm install && php artisan serve;
