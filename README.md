@@ -16,4 +16,4 @@ and paste it in your local laravel project folder and you'll have to chose "repl
 
 Then you're good to go! Enjoy your simple laravel configs and build something great!
 
-NB: The init.sh file can be modified to automate the task of copying files in your project folder, you can take advantage of that if you're in an UNIX environment. You will just have to run 'npm run watch' after that.
+NB: The example.init.sh file can be copied to an init.sh filed and modified to automate the task of copying files in your project folder, you can take advantage of that if you're in an UNIX environment. You will just have to run 'npm run watch' after that.
