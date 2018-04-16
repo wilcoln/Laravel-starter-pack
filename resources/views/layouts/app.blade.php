@@ -10,7 +10,13 @@
     <title>Example</title>
 </head>
 <body>
-    
+    @include('inc.navbar')
+    @include('inc.alerts')
+
+    {{-- Page body goes here --}}
+    @yield('content')
+
+    @include('inc.footer')
     <script src="/js/deps.js"></script>
     <script src="/js/app.js"></script>
 </body>
